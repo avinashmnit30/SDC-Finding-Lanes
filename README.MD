@@ -21,7 +21,7 @@
 
 
 ## Pipeline
-![model](./Pipeline/pipeline_v2jpeg1.jpeg)
+![pipeline](./Pipeline/pipeline_v2jpeg.jpeg)
 
 As shown in the figure the pipeline consists of 6 steps:-
 ![Orignal](./test_images/solidWhiteRight.jpg)
