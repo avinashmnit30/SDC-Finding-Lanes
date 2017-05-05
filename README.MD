@@ -44,13 +44,6 @@ This step separates out the lines in the image that probably form the lanes.
 This step merges the output of the hough transform to the original image.
 ![Final](./image_result/7_final_solidWhiteCurve.jpg)
 
-##
-![V1](./video_result/final_solidWhiteRight.mp4)
-
-##
-[![V2](./test_images/solidWhiteRight.jpg)](./video_result/final_solidWhiteRight.mp4)
-
-
 ## For more information and results
 https://wp.me/p9KXJx-T
 
