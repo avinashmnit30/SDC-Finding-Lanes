@@ -32,6 +32,7 @@ As shown in the figure the pipeline consists of 6 steps:-
 * Merge with the Original Image: This step merges the output of the hough transform to the original image.
 
 ![model](./video_result/final_solidWhiteRight.mp4)
+[![Watch the video]](./video_result/final_solidWhiteRight.mp4)
 
 
 ## For more information
