@@ -25,22 +25,22 @@
 
 As shown in the figure the pipeline consists of 6 steps:-
 ![Orignal](./test_images/solidWhiteRight.jpg)
-1. Convert to Grayscale: 
+### Convert to Grayscale: 
 This will convert the image to a single channel for later use by the Canny Transform (Step 3) for finding the gradient of the pixel intensity.
 ![Gray](./image_result/2_gray_solidWhiteCurve.jpg)
-2. Apply Gaussian Smoothing (or Gaussian Blur): 
+### Apply Gaussian Smoothing (or Gaussian Blur): 
 This step filters out the noise in the image.
 ![Blur](./image_result/3_blur_solidWhiteCurve.jpg)
-3. Apply Canny Transform: 
+### Apply Canny Transform: 
 This is used to find the edges in the image. An edge is formed by pixels where the gradient of the image intensity sharply changes.
 ![Canny](./image_result/4_canny_solidWhiteCurve.jpg)
-4. Find the Region of Interest: 
+### Find the Region of Interest: 
 This step separates out the region of image where the road lanes are possible to occur.
 ![Masked](./image_result/5_masked_solidWhiteCurve.jpg)
-5. Apply Hough Transform: 
+### Apply Hough Transform: 
 This step separates out the lines in the image that probably form the lanes.
 ![Hough](./image_result/6_hough_solidWhiteCurve.jpg)
-6. Merge with the Original Image: 
+### Merge with the Original Image: 
 This step merges the output of the hough transform to the original image.
 ![Final](./image_result/2_final_solidWhiteCurve.jpg)
 
