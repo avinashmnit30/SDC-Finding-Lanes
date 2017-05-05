@@ -31,8 +31,11 @@ As shown in the figure the pipeline consists of 6 steps:-
 * Apply Hough Transform: This step separates out the lines in the image that probably form the lanes.
 * Merge with the Original Image: This step merges the output of the hough transform to the original image.
 
-![model](./video_result/final_solidWhiteRight.mp4)
-[![Watch the video]](./video_result/final_solidWhiteRight.mp4)
+##
+![V1](./video_result/final_solidWhiteRight.mp4)
+
+##
+[![V2](./test_images/solidWhiteRight.jpg)](./video_result/final_solidWhiteRight.mp4)
 
 
 ## For more information
