@@ -3,7 +3,7 @@
 ---
 
 ## Dependencies
-* Python 3.5 or later
+* Python >= 3.5
 * Numpy
 * OpenCV
 * Matplotlib
